@@ -4,6 +4,11 @@ PImage img3;
 PImage sorted;
 int index = 0;
 
+
+
+
+
+
 void setup() {
   size(800, 400);
 
@@ -22,7 +27,7 @@ void draw() {
   img3.loadPixels();
 
   // Selection sort!
-  for (int n = 0; n < 10; n++) {
+  for (int n = 0; n < 1; n++) {
     float record = -1;
     int selectedPixel = index;
     for (int j = index; j < sorted.pixels.length; j++) {
